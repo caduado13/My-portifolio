@@ -65,17 +65,17 @@ function appear(){
         <li>   
             <span><i class="fa-solid fa-angle-left" style="color:#fff" id="back" onclick="back()"></i></span>   
         </li>
-            <li class = "nav-animation1">
+            <li>
                 <a "href="mailto:devcarlos.siqueira@gmail.com" target="_blank">
                     <span>Email</span>
                 </a>
             </li>
-            <li class = "nav-animation2">
+            <li>
                 <a href="https://www.linkedin.com/in/carlos-eduardo-de-siqueira-306673153/" target="_blank">
                     <span>Linkedin</span>
                 </a>
             </li>
-            <li class = "nav-animation3">
+            <li>
                 <a href="https://github.com/caduado13" target="_blank">
                     <span>GitHub</span>
                 </a>

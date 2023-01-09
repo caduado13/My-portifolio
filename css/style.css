@@ -495,7 +495,6 @@ footer {
         display: flex;
     }
     .nav-bars{
-        font-size: 1.5rem;
         padding-left:20px;
         color: #fff;
     }
@@ -507,7 +506,7 @@ footer {
     }
     .nav-div ul li{
         list-style-type: none;
-        font-size: 1.5rem;
+        font-size: 1.35rem;
         padding: 0 30px 0 0;
     }
     .nav-div ul li:nth-child(1){
@@ -589,7 +588,7 @@ footer {
         flex-direction: column;
     }
     .works{
-        width: 350px;
+        width: 330px;
         height: 250px;
         box-shadow: 2px 2px 10px 1px #000;
         position: relative;
