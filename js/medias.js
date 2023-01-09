@@ -9,19 +9,19 @@ let workContainer = document.querySelector(".work-container");
 let mySkills = [
     {
         leng: "html",
-        skill: 80,
+        skill: 96,
     },{
         leng: "css",
-        skill: 85,
+        skill: 93,
     },{
         leng: "javascript",
-        skill: 75,
+        skill: 88,
     },{
         leng: "git",
-        skill: 92,
+        skill: 98,
     },{
         leng: "node",
-        skill: 50,
+        skill: 68,
     }
 ];
 for(let i = 0; i < progress.length; i++){
@@ -40,7 +40,7 @@ if(window.matchMedia("(max-width:768px)").matches){
     intro[0].innerHTML = `        
     <div class="intro-container wrap">
         <div class="intro-img" style="padding-top:100px;">
-            <img src="./img/perfil.jpeg" alt="">
+            <img src="./img/perfil.avif" alt="">
         </div>
         <div class="intro-content" style="padding: 100px 0;">
             <h1><span>&#128075 &#128075  &#128075</span>Hello, i'm Carlos Eduardo, <span style="color: #E63946;">Web developer</span> from Brazil!</h1>
