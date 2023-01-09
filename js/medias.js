@@ -9,19 +9,19 @@ let workContainer = document.querySelector(".work-container");
 let mySkills = [
     {
         leng: "html",
-        skill: 96,
+        skill: 80,
     },{
         leng: "css",
-        skill: 93,
+        skill: 85,
     },{
         leng: "javascript",
-        skill: 88,
+        skill: 75,
     },{
         leng: "git",
         skill: 92,
     },{
         leng: "node",
-        skill: 68,
+        skill: 50,
     }
 ];
 for(let i = 0; i < progress.length; i++){
@@ -85,22 +85,22 @@ function appear(){
 
 const attributes =[
     {
-        image: "./img/Todo-img.jpg",
-        mobile: "./img/todo-mobile.png",
+        image: "./img/Todo-img.avif",
+        mobile: "./img/todo-mobile.avif",
         tittle: "To do list",
         paragraph: "To do list to make things",
         linkV: "",
         linkG: "https://github.com/caduado13/Simple-to-do-list "
     },{
-        image: "./img/dw-full.png",
-        mobile: "./img/dw-mobile.png",
+        image: "./img/dw-full.avif",
+        mobile: "./img/dw-mobile.avif",
         tittle: "Drink Water app",
         paragraph: "Description",
         linkV: "",
         linkG: "https://github.com/caduado13/Drink-water-app"
     },{
-        image: "./img/form-img.png",
-        mobile: "./img/form-mobile.png",
+        image: "./img/form-img.avif",
+        mobile: "./img/form-mobile.avif",
         tittle: "Free code camp form",
         paragraph: "A form example with regular expressions to register",
         linkV: "",
