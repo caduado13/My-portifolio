@@ -452,6 +452,9 @@ footer {
 } 
 
 @media only screen and (max-width: 769px){
+    body{
+        overflow-x: hidden;
+    }
     .wrap{
         max-width: 768px;
         margin: 0 auto;
