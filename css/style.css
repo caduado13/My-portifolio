@@ -13,7 +13,7 @@
 }
 body{
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden; 
+    width: 100%;
 }
 .wrap{
     max-width: 1280px;
@@ -405,6 +405,38 @@ footer {
     transform: scale(1.2);
 }
 
+@media only screen and (min-width: 770px){
+    .reveal{
+        transform: translateX(150px);
+        opacity: 0;
+        transition: 2s all ease;
+    } 
+    .reveal.show{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    .revealOp{
+        transform: translateX(-150px);
+        opacity: 0;
+        transition: 2s all ease;
+    } 
+    .revealOp.showOp{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .opac{
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 2s all ease;
+    } 
+    .opac.showOpac{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+
 @media screen and (min-width:800px) and (max-width: 1024px){
     .intro-img{
         text-align: center;
@@ -452,9 +484,6 @@ footer {
 } 
 
 @media only screen and (max-width: 769px){
-    body{
-        overflow-x: hidden;
-    }
     .wrap{
         max-width: 768px;
         margin: 0 auto;
@@ -584,7 +613,9 @@ footer {
     }
 
     /* contacit */
-
+    .contact{
+        padding-bottom: 50px;
+    }
     .contact-btn{
         font-size: 20px;
         margin: 50px 0;
@@ -608,10 +639,17 @@ footer {
         display: inline;
     }
 
+    .social-medias{
+        padding-top: 0;
+    }
+
     .social-medias ul li a{
         color: #fff;
-        font-size: 50px;
         padding-right: 30px;
+    }
+    .social-medias ul li a i{
+        font-size: 40px;
+
     }
     .visit-btn{
         width: 100%;
@@ -659,6 +697,33 @@ footer {
     ::-webkit-scrollbar-thumb:hover {
         background: #555; 
     } 
+        .reveal{
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 2s all ease;
+    } 
+    .reveal.show{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    .revealOp{
+        transform: translateY(-150px);
+        opacity: 0;
+        transition: 2s all ease;
+    } 
+    .revealOp.showOp{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    .opac{
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 2s all ease;
+    } 
+    .opac.showOpac{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 @media screen and (min-width: 767px) and (max-width: 769px) {
@@ -684,30 +749,3 @@ footer {
     }
 }
 
-.reveal{
-    transform: translateX(150px);
-    opacity: 0;
-    transition: 2s all ease;
-} 
-.reveal.show{
-    transform: translateY(0);
-    opacity: 1;
-}
-.revealOp{
-    transform: translateX(-150px);
-    opacity: 0;
-    transition: 2s all ease;
-} 
-.revealOp.showOp{
-    transform: translateX(0);
-    opacity: 1;
-}
-.opac{
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 2s all ease;
-} 
-.opac.showOpac{
-    transform: translateY(0);
-    opacity: 1;
-}
