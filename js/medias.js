@@ -95,8 +95,8 @@ const attributes =[
         image: "./img/dw-full.avif",
         mobile: "./img/dw-mobile.avif",
         tittle: "Drink Water app",
-        paragraph: "Description",
-        linkV: "",
+        paragraph: "Application for monitor the levels of water you drink per day, using the local storage for save your progress on the day",
+        linkV: "https://caduado13.github.io/Drink-water-app/",
         linkG: "https://github.com/caduado13/Drink-water-app"
     },{
         image: "./img/form-img.avif",
